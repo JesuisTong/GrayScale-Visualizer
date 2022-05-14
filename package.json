@@ -1,0 +1,22 @@
+{
+  "name": "png2ascii",
+  "version": "0.0.0",
+  "description": "png to ascii text",
+  "keywords": [
+    "png",
+    "ascii",
+    "text"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run dev --filter {example}",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tongz <iamtongton@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "pnpm": "^7.0.1",
+    "typescript": "^4.6.4"
+  }
+}
