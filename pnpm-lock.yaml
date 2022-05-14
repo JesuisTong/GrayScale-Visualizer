@@ -13,6 +13,7 @@ importers:
   example:
     specifiers:
       '@sveltejs/adapter-auto': next
+      '@sveltejs/adapter-static': 1.0.0-next.30
       '@sveltejs/kit': next
       autoprefixer: ^10.4.7
       postcss: ^8
@@ -25,6 +26,7 @@ importers:
       tslib: ^2.3.1
       typescript: ~4.6.2
     dependencies:
+      '@sveltejs/adapter-static': registry.npmmirror.com/@sveltejs/adapter-static/1.0.0-next.30
       autoprefixer: registry.npmmirror.com/autoprefixer/10.4.7_postcss@8.4.13
       postcss: registry.npmmirror.com/postcss/8.4.13
       tailwindcss: registry.npmmirror.com/tailwindcss/3.0.24
@@ -109,6 +111,14 @@ packages:
       esbuild: registry.npmmirror.com/esbuild/0.14.38
       tiny-glob: registry.npmmirror.com/tiny-glob/0.2.9
     dev: true
+
+  registry.npmmirror.com/@sveltejs/adapter-static/1.0.0-next.30:
+    resolution: {integrity: sha512-xJPOXuj4T/lw9pZpMQAoN68TgrOPp/zOldvSFA+A5CIhb8yLXkgxOWh6UDUrbVxM1NjOdt8lwPdZfdkh5FL2Fg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.30.tgz}
+    name: '@sveltejs/adapter-static'
+    version: 1.0.0-next.30
+    dependencies:
+      tiny-glob: registry.npmmirror.com/tiny-glob/0.2.9
+    dev: false
 
   registry.npmmirror.com/@sveltejs/adapter-vercel/1.0.0-next.51:
     resolution: {integrity: sha512-U4GSe1tYcWq90XCQfLK4qmEEVA1MyWgnT6i7LhbLVOoNP8bf3ict3xKjGrHcx/CY4jNUBA80DXSkj/hpFkweAg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.51.tgz}
@@ -771,13 +781,11 @@ packages:
     resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/globalyzer/-/globalyzer-0.1.0.tgz}
     name: globalyzer
     version: 0.1.0
-    dev: true
 
   registry.npmmirror.com/globrex/0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/globrex/-/globrex-0.1.2.tgz}
     name: globrex
     version: 0.1.2
-    dev: true
 
   registry.npmmirror.com/graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.10.tgz}
@@ -1408,7 +1416,6 @@ packages:
     dependencies:
       globalyzer: registry.npmmirror.com/globalyzer/0.1.0
       globrex: registry.npmmirror.com/globrex/0.1.2
-    dev: true
 
   registry.npmmirror.com/to-regex-range/5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz}
