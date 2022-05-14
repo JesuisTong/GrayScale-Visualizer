@@ -1,13 +1,5 @@
 {
-  "name": "png2ascii",
   "version": "0.0.0",
-  "description": "png to ascii text",
-  "keywords": [
-    "png",
-    "ascii",
-    "text"
-  ],
-  "main": "index.js",
   "scripts": {
     "dev": "pnpm run dev --filter {example}",
     "build": "tsc",
