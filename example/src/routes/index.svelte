@@ -73,7 +73,7 @@
     }
 
     const renderCanvas = () => {
-        if (selectGrayScale < 0) return;
+        if (!OPTIONS[selectGrayScale]) return;
         const ctx = unvisibleCanvasRef.getContext('2d')!;
         // 设置宽高
         unvisibleCanvasRef.width = imgRef.width;
